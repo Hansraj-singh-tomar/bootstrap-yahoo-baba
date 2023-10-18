@@ -29,6 +29,7 @@
         Extra Small =>  <576px     (Auto)
      -->
 
+    <!-- <h3>Container Fluid</h3> -->
     <!-- <div class="container-fluid"> -->
     <!-- <div class="container">
       <div class="row">Row - 1</div>
@@ -36,6 +37,7 @@
       <div class="row">Row - 3</div>
     </div> -->
 
+    <h3>Container Class</h3>
     <!-- Col class - if we want to create a equal width div tag in that case we will use col class  -->
     <div class="container">
       <div class="row">
@@ -210,6 +212,158 @@
           hiii this is an another div
         </div>
       </div>
+
+      <!-- <h3>Flex-direction</h3> -->
+      <!-- if we want to reverse the order of div then we can use this row-reveser  -->
+      <!-- flex-row-reverse, flex-row(bydefault), flex-column, flex-column-reverse, flex-wrap(bydefault), flex-nowrap, flex-wrap-reverse, flex-fill(we use this with .col class) -->
+      <!-- .flex-fill ko ham .col ke sath use karte hai jiska kam hai uss div ko full width de dena  -->
+
+      <h3>Display utilities</h3>
+      <!-- display: none -> .d-none, .d-inline, .d-inline-block, .d-block, .d-table, .d-table-cell, .d-table-row, .d-flex, .d-inline-flex -->
+      <!-- <div class="p-3 d-inline-block pink">
+        <h2>Col A</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+      <div class="p-3 d-inline-block green">
+        <h2>Col B</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div> -->
+
+      <div class="row">
+        <div class="col-3 pink">
+          <h2>Col A</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+          quasi! Sed amet sint totam nostrum voluptates aspernatur qui labore
+          esse modi iure. Explicabo iusto corporis aut repudiandae ipsum dolore.
+          Adipisci.
+        </div>
+        <div class="col-3 d-none d-sm-block green">
+          <!--Extra small par ye div hat jayega-->
+          <h2>Col A</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+          quasi! Sed amet sint totam nostrum voluptates aspernatur qui labore
+          esse modi iure. Explicabo iusto corporis aut repudiandae ipsum dolore.
+          Adipisci.
+        </div>
+        <div class="col-3 d-block d-sm-none blue">
+          <!-- Extra small me to ye div dikhega but usse upar vali screen me nhi dikhega  -->
+          <h2>Col A</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+          quasi! Sed amet sint totam nostrum voluptates aspernatur qui labore
+          esse modi iure. Explicabo iusto corporis aut repudiandae ipsum dolore.
+          Adipisci.
+        </div>
+        <div class="col-3 yellow">
+          <h2>Col A</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+          quasi! Sed amet sint totam nostrum voluptates aspernatur qui labore
+          esse modi iure. Explicabo iusto corporis aut repudiandae ipsum dolore.
+          Adipisci.
+        </div>
+      </div>
+
+      <!-- Display Print Utilities -->
+      <!-- 
+        .d-print-none, inline, inline-block, block, table, table-cell, table-row, flex, inline-flex
+        sppose agar user print lena chahta hai kisi page ka in that case i can hide/remove header, advertisment while printing the page that is why we use this functionality.
+      -->
+
+      <!-- Width classes -->
+      <!-- w-25 => width: 25%, w-auto -->
+      <!-- mw-100 => maximum-width-100 -->
+      <!-- min-vh-100 =>minimum viewPort-height-100 => minimum hieght 24% rakho and than or content aata hai to vo automatic badta jayega -->
+
+      <!-- Position Classes -->
+      <!-- .position-relative,absolute,static,fixed,sticky -->
+      <!-- but inse related left: 20,0 right:10,20 iss tarah ki classes nhi hai -->
+      <!-- We have .fixed-top, .fixed-bottom, .stickt-top -->
+
+      <!-- Overflow classes -->
+      <!-- .overflow-hidden, auto -->
+
+      <!-- Margin/Padding classes -->
+      <!-- .p-(0-5) .pr, .pl, .pt, .pb, .py, .px -->
+      <!-- .no-gutters => isse jo bhi bydefault margin/padding aa rhi hai vo zero ho jayegi -->
+      <!-- .col and .row me bydefault 15px ki space aati hai we can remove that space by using .no-gutters -->
+
+      <!-- Background Color Classes -->
+      <!-- .bg-primary, secondary,success,danger,warning,info,light,dark,white,transparent -->
+      <!-- .text-primary, secondary,success,danger,warning,info,light,dark,white,body,muted,black-50,white-50 -->
+
+      <!-- Text Align classes -->
+      <!-- .text-left,right,center,justify -->
+      <!-- .text-lowercase,uppercase,capitalize -->
+      <!-- font-weight-bold, bolder, light, lighter, normal -->
+      <!-- Font Size Classes => .display-1,2,3,4,.lead -->
+
+      <!-- List Styles Classes -->
+      <!-- 
+        list-style-none => .list-unstyled
+        list-style-inline => .list-inline( on ul), .list-inline-item(on li)
+      -->
+
+      <!-- BlockQuote Classes -->
+      <!-- <blockquote class="blockquote">
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum
+        consequuntur explicabo, quo eos quia labore."
+        <footer class="blockquote-footer">-- cory Booker</footer>
+      </blockquote> -->
+
+      <!--  classes related to select paragraph
+        .user-select-all
+        .user-select-auto
+        .user-select-none
+       -->
+
+      <!-- Ancher Tag Formatting Classes -->
+      <!-- text-decoration:none => .text-decoration-none -->
+      <!-- .text-reset (isse ancher tag ka color vhi vo jayega jo iske parent ka hai ) -->
+
+      <!-- Wrapping and lont text formatting classes -->
+      <!-- .text-nowrap, truncate,break -->
+
+      <!-- Classes for Button -->
+      <!-- .btn, btn-sm,lg -->
+      <!-- .btn-block(puri width lelega) -->
+      <!-- .btn active/disabled -->
+      <!-- .btn-primary, secondary,success,danger,warning,info,light,dark,link -->
+
+      <!-- .btn btn-outline-primary, secondary,success,danger,warning,info,light,dark -->
+      <!-- .btn-group,lg,sm (button group ke parent div par lagegi) -->
+      <!-- .btn-group-vertical,horizontal -->
+      <!-- .btn-group ke bhi agar bhut saare div hai or unke upar ham .btn-toolbar ka use karenge -->
     </div>
+
+    <!-- .row and .col ke bhi ham flex ki properties ko use kar sakte hai  -->
+    <!-- <div class="container">
+      <div class="d-flex flex-column flex-nowrap flex-row flex-row-reverse">
+        <div class="pink order-3 p-3">Col A</div>
+        <div class="green order-1 p-3">Col B</div>
+        <div class="blue order-2 p-3">Col C</div>
+      </div>
+    </div> -->
+
+    <!-- Float & Clearfix classes -->
+    <!-- <h3>Float & Clearfix classes</h3> -->
+    <!-- 
+        .float-left,right
+        .clearfix - float properties use karne par border unse hat kar upper alag se dikhne lagti hai uska solution hai .Clearfix class
+    -->
+    <!-- <div class="container clearfix">
+      <div class="green w-25 float-left">
+        <h2>Div A</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+      <div class="blue w-25 float-right">
+        <h2>Div B</h2>
+        Lorem ipsum dolor sit amet.
+      </div>
+    </div> -->
   </body>
 </html>
+
+<!-- 
+
+  Use Classes with of .row class - align-content-start, align-items-start, justify-content-center, row-col-2, flex-row-reverse, flex-row(bydefault), flex-column, flex-column-reverse, flex-wrap(bydefault), flex-nowrap, flex-wrap-reverse
+  Use Classes with of .col class - align-self-start, order-first,last, order-1,2,3, offset-md-2, flex-fill
+ -->
