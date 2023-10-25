@@ -319,7 +319,7 @@
       <!-- text-decoration:none => .text-decoration-none -->
       <!-- .text-reset (isse ancher tag ka color vhi vo jayega jo iske parent ka hai ) -->
 
-      <!-- Wrapping and lont text formatting classes -->
+      <!-- Wrapping and font text formatting classes -->
       <!-- .text-nowrap, truncate,break -->
 
       <!-- Classes for Button -->
@@ -332,6 +332,75 @@
       <!-- .btn-group,lg,sm (button group ke parent div par lagegi) -->
       <!-- .btn-group-vertical,horizontal -->
       <!-- .btn-group ke bhi agar bhut saare div hai or unke upar ham .btn-toolbar ka use karenge -->
+
+      <!-- list group classes -->
+      <!-- ul - list-group(list ke charo or border aa jayegi), list-group-flush(list ke bottom me hi border aayegi) -->
+      <!-- li - list-group-item, => for color in list .list-group-item-light,primary,secondary,success,danger,warning,info,dark -->
+      <!-- li - .active .disabled -->
+      <!-- 
+        List Group Horizontal Classes 
+        ul - .list-group .list-group-horizontal-sm|md|lg|xl and li me .list-group-item class to use karna hi hai 
+      -->
+      <!-- 
+        List Group Links & Buttons
+        <div class="list-group">
+          ancher tag ke place par me button bhi use kar sakta hu
+          <a class="list-group-item list-group-item-action">List item one</a>
+        </div>
+       -->
+
+      <!-- Table Classes -->
+      <!-- 
+          <table class="table table-dark table-borderless"></table>
+          .table(border bottom show hogi table me),
+          .table .table-bordered(charo or border aa jayegi) 
+          .table table-borderless(border bottom show nhi karega)
+          .table table-dark(background color dark or text ka color white ho jayega) 
+          .table table-striped(table me row ko alternative color deti hai)
+          .table table-hover(row me hover effect ke liye )
+          .table table-sm(table ka size small me kar dega)
+          => <tr></tr> row me color ke liye .table-ligh,primary......and so on
+          => <tr class="bg-primary, success, info,warning, danger"></tr> (jyada dark color dega)
+          <thead class="thead-dark,light"></thead>
+          
+          Responsive Table Classes - div><table class="table-responsive-sm|md|ls|X"></table></div>
+        -->
+
+      <!-- 
+        Pagination and Breadcrumb Classes 
+        1. Pagination Exp - Previous | 1 | 2 | 3 | Next
+        <nav>
+          <ul class="Pagination">
+          <ul class="Pagination justify-content-center Pagination-lg, sm">
+            <li class="page-item active"><a href="#" class="page-link"></a></li>
+            <li class="page-item disabled"><a href="#" class="page-link"></a></li>
+          </ul>
+        </nav>
+
+        2. Breadcrumb Exp = Home / Library / Data(grey color kyonki ham iss page par hai isliye)
+        <nav>
+          
+          <ol class="Breadcrumb">
+            <li class="Breadcrumb-item"><a href="#" class="">Home</a></li>
+            <li class="Breadcrumb-item"><a href="#" class="">Library</a></li>
+            <li class="Breadcrumb-item active">Data</li>
+          </ol>
+        </nav>
+      -->
+
+      <!-- Video Number - 29
+        Bootstrap-5 new Classes
+        - No more JQuery required
+        - still have all the js plugins
+        - suoooort for IE has also been dropped
+        - some new css classses for layout, text and forms
+        1. Extra extra large(xxl) >= 1400px screen size added
+        2. .container ki new width hai 1320px
+        3. .g-(0-5), .gx-(0-5) and .gy-(0-5) and .g-xxl,xl,lg,md-(0-5) (div ke andara columns ke bich me jo gap rehti hai usse ham end bhi kar sakte hai or decrease bhi kar sakte hai)
+        4. Line Hieght Class .lh-1 | sm | base | lg
+        5. Table Border Class - <table class="table table-bordered border-primary">
+        6. Table Vertical Align Classes - .align-top|midddle|bottom, <tr><td> khi par bhi lga sakte hai 
+       -->
     </div>
 
     <!-- .row and .col ke bhi ham flex ki properties ko use kar sakte hai  -->
